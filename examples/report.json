@@ -1,0 +1,197 @@
+{
+  "as_of": "2026-10-23",
+  "issues": [
+    {
+      "severity": "critical",
+      "vendor": "V008",
+      "name": "Vendor 008",
+      "check": "PENTEST_OPEN_FINDING",
+      "detail": "Critical finding F-9 is still open.",
+      "question": "What is the remediation date for finding F-9?"
+    },
+    {
+      "severity": "high",
+      "vendor": "V001",
+      "name": "Vendor 001",
+      "check": "EVIDENCE_MISSING",
+      "detail": "No BCP/DR evidence on file.",
+      "question": "Please provide your BCP/DR plan summary and latest test results."
+    },
+    {
+      "severity": "high",
+      "vendor": "V003",
+      "name": "Vendor 003",
+      "check": "SOC2_STALE",
+      "detail": "Report period ended 2025-07-31, over 12 months ago.",
+      "question": "Please provide your most recent SOC 2 report."
+    },
+    {
+      "severity": "high",
+      "vendor": "V004",
+      "name": "Vendor 004",
+      "check": "SOC2_OPINION_NOT_CLEAN",
+      "detail": "Auditor opinion is qualified.",
+      "question": "Please explain the basis for the modified opinion and your remediation plan."
+    },
+    {
+      "severity": "high",
+      "vendor": "V005",
+      "name": "Vendor 005",
+      "check": "SCOPE_GAP",
+      "detail": "Services we use are outside the assurance scope: API.",
+      "question": "Is API covered by your SOC 2 or ISO 27001 scope? If not, what other assurance exists?"
+    },
+    {
+      "severity": "high",
+      "vendor": "V006",
+      "name": "Vendor 006",
+      "check": "ISO_EXPIRED",
+      "detail": "Certificate expired 2026-09-30.",
+      "question": "Please provide the renewed certificate."
+    },
+    {
+      "severity": "high",
+      "vendor": "V009",
+      "name": "Vendor 009",
+      "check": "PENTEST_STALE",
+      "detail": "Last penetration test 2025-05-01.",
+      "question": "Please provide a penetration test from the last 12 months."
+    },
+    {
+      "severity": "high",
+      "vendor": "V010",
+      "name": "Vendor 010",
+      "check": "DR_TEST_FAILED",
+      "detail": "Last DR test missed its target (achieved 12h, target 8h).",
+      "question": "What corrective actions followed the failed DR test, and when was it re-run?"
+    },
+    {
+      "severity": "high",
+      "vendor": "V010",
+      "name": "Vendor 010",
+      "check": "DR_TEST_STALE",
+      "detail": "Last DR test 2025-06-01.",
+      "question": "Please provide a DR test from the last 12 months."
+    },
+    {
+      "severity": "medium",
+      "vendor": "V002",
+      "name": "Vendor 002",
+      "check": "SOC2_PERIOD_SHORT",
+      "detail": "Observation period 2026-08-01 to 2026-09-30 is under 6 months.",
+      "question": "Why is the observation period short? When will a longer period report be issued?"
+    },
+    {
+      "severity": "medium",
+      "vendor": "V002",
+      "name": "Vendor 002",
+      "check": "SOC2_TYPE1_ONLY",
+      "detail": "Only a point-in-time Type 1 report; Type 2 is expected for this tier.",
+      "question": "Please share your SOC 2 Type 2 report, or the date it will be available."
+    },
+    {
+      "severity": "medium",
+      "vendor": "V004",
+      "name": "Vendor 004",
+      "check": "SOC2_EXCEPTIONS",
+      "detail": "3 control exception(s) reported.",
+      "question": "Please explain each exception, its impact on our services and the remediation."
+    },
+    {
+      "severity": "medium",
+      "vendor": "V007",
+      "name": "Vendor 007",
+      "check": "ISO_BODY_NOT_ACCREDITED",
+      "detail": "Certification body is not accredited.",
+      "question": "Please confirm the accreditation of your certification body."
+    },
+    {
+      "severity": "medium",
+      "vendor": "V007",
+      "name": "Vendor 007",
+      "check": "ISO_EXPIRING",
+      "detail": "Certificate expires 2026-12-15.",
+      "question": "Please confirm the date of your recertification audit."
+    },
+    {
+      "severity": "medium",
+      "vendor": "V008",
+      "name": "Vendor 008",
+      "check": "PENTEST_UNVERIFIED",
+      "detail": "High finding F-3 was closed without a retest.",
+      "question": "Please provide retest evidence for finding F-3."
+    },
+    {
+      "severity": "low",
+      "vendor": "V010",
+      "name": "Vendor 010",
+      "check": "SOC2_BRIDGE_MISSING",
+      "detail": "Period ended 2026-06-30 and no bridge letter covers the gap since.",
+      "question": "Please provide a bridge (gap) letter confirming no material control changes since the period end."
+    }
+  ],
+  "verdicts": {
+    "V001": "follow_up_required",
+    "V002": "accept_with_conditions",
+    "V003": "follow_up_required",
+    "V004": "follow_up_required",
+    "V005": "follow_up_required",
+    "V006": "follow_up_required",
+    "V007": "accept_with_conditions",
+    "V008": "follow_up_required",
+    "V009": "follow_up_required",
+    "V010": "follow_up_required",
+    "V011": "accept",
+    "V012": "accept",
+    "V013": "accept",
+    "V014": "accept",
+    "V015": "accept",
+    "V016": "accept",
+    "V017": "accept",
+    "V018": "accept",
+    "V019": "accept",
+    "V020": "accept",
+    "V021": "accept",
+    "V022": "accept",
+    "V023": "accept",
+    "V024": "accept",
+    "V025": "accept",
+    "V026": "accept",
+    "V027": "accept",
+    "V028": "accept",
+    "V029": "accept",
+    "V030": "accept"
+  },
+  "names": {
+    "V001": "Vendor 001",
+    "V002": "Vendor 002",
+    "V003": "Vendor 003",
+    "V004": "Vendor 004",
+    "V005": "Vendor 005",
+    "V006": "Vendor 006",
+    "V007": "Vendor 007",
+    "V008": "Vendor 008",
+    "V009": "Vendor 009",
+    "V010": "Vendor 010",
+    "V011": "Vendor 011",
+    "V012": "Vendor 012",
+    "V013": "Vendor 013",
+    "V014": "Vendor 014",
+    "V015": "Vendor 015",
+    "V016": "Vendor 016",
+    "V017": "Vendor 017",
+    "V018": "Vendor 018",
+    "V019": "Vendor 019",
+    "V020": "Vendor 020",
+    "V021": "Vendor 021",
+    "V022": "Vendor 022",
+    "V023": "Vendor 023",
+    "V024": "Vendor 024",
+    "V025": "Vendor 025",
+    "V026": "Vendor 026",
+    "V027": "Vendor 027",
+    "V028": "Vendor 028",
+    "V029": "Vendor 029",
+    "V030": "Vendor 030"
+  }
+}

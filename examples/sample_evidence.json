@@ -1,0 +1,1013 @@
+{
+  "_note": "Synthetic data. Problems are injected on purpose.",
+  "vendors": [
+    {
+      "id": "V001",
+      "name": "Vendor 001",
+      "tier": 1,
+      "services_used": [
+        "Platform",
+        "API"
+      ],
+      "evidence": [
+        {
+          "type": "soc2",
+          "report_type": "type2",
+          "period_start": "2025-10-01",
+          "period_end": "2026-09-30",
+          "opinion": "unqualified",
+          "exceptions": 0,
+          "scope_services": [
+            "Platform",
+            "API"
+          ],
+          "bridge_letter_date": "2026-10-10"
+        },
+        {
+          "type": "pentest",
+          "test_date": "2026-06-01",
+          "scope_services": [
+            "Platform",
+            "API"
+          ],
+          "findings": [
+            {
+              "id": "F-1",
+              "severity": "high",
+              "status": "closed",
+              "retest_date": "2026-07-01"
+            },
+            {
+              "id": "F-2",
+              "severity": "low",
+              "status": "open"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V002",
+      "name": "Vendor 002",
+      "tier": 1,
+      "services_used": [
+        "Platform",
+        "API"
+      ],
+      "evidence": [
+        {
+          "type": "soc2",
+          "report_type": "type1",
+          "period_start": "2026-08-01",
+          "period_end": "2026-09-30",
+          "opinion": "unqualified",
+          "exceptions": 0,
+          "scope_services": [
+            "Platform",
+            "API"
+          ],
+          "bridge_letter_date": "2026-10-10"
+        },
+        {
+          "type": "pentest",
+          "test_date": "2026-06-01",
+          "scope_services": [
+            "Platform",
+            "API"
+          ],
+          "findings": [
+            {
+              "id": "F-1",
+              "severity": "high",
+              "status": "closed",
+              "retest_date": "2026-07-01"
+            },
+            {
+              "id": "F-2",
+              "severity": "low",
+              "status": "open"
+            }
+          ]
+        },
+        {
+          "type": "bcp_dr",
+          "plan_date": "2026-03-01",
+          "last_test_date": "2026-05-15",
+          "rto_target_hours": 8,
+          "rto_achieved_hours": 6,
+          "result": "pass"
+        }
+      ]
+    },
+    {
+      "id": "V003",
+      "name": "Vendor 003",
+      "tier": 2,
+      "services_used": [
+        "Platform",
+        "API"
+      ],
+      "evidence": [
+        {
+          "type": "soc2",
+          "report_type": "type2",
+          "period_start": "2024-08-01",
+          "period_end": "2025-07-31",
+          "opinion": "unqualified",
+          "exceptions": 0,
+          "scope_services": [
+            "Platform",
+            "API"
+          ],
+          "bridge_letter_date": null
+        },
+        {
+          "type": "bcp_dr",
+          "plan_date": "2026-03-01",
+          "last_test_date": "2026-05-15",
+          "rto_target_hours": 8,
+          "rto_achieved_hours": 6,
+          "result": "pass"
+        }
+      ]
+    },
+    {
+      "id": "V004",
+      "name": "Vendor 004",
+      "tier": 1,
+      "services_used": [
+        "Platform",
+        "API"
+      ],
+      "evidence": [
+        {
+          "type": "soc2",
+          "report_type": "type2",
+          "period_start": "2025-10-01",
+          "period_end": "2026-09-30",
+          "opinion": "qualified",
+          "exceptions": 3,
+          "scope_services": [
+            "Platform",
+            "API"
+          ],
+          "bridge_letter_date": "2026-10-10"
+        },
+        {
+          "type": "pentest",
+          "test_date": "2026-06-01",
+          "scope_services": [
+            "Platform",
+            "API"
+          ],
+          "findings": [
+            {
+              "id": "F-1",
+              "severity": "high",
+              "status": "closed",
+              "retest_date": "2026-07-01"
+            },
+            {
+              "id": "F-2",
+              "severity": "low",
+              "status": "open"
+            }
+          ]
+        },
+        {
+          "type": "bcp_dr",
+          "plan_date": "2026-03-01",
+          "last_test_date": "2026-05-15",
+          "rto_target_hours": 8,
+          "rto_achieved_hours": 6,
+          "result": "pass"
+        }
+      ]
+    },
+    {
+      "id": "V005",
+      "name": "Vendor 005",
+      "tier": 1,
+      "services_used": [
+        "Platform",
+        "API"
+      ],
+      "evidence": [
+        {
+          "type": "soc2",
+          "report_type": "type2",
+          "period_start": "2025-10-01",
+          "period_end": "2026-09-30",
+          "opinion": "unqualified",
+          "exceptions": 0,
+          "scope_services": [
+            "Platform"
+          ],
+          "bridge_letter_date": "2026-10-10"
+        },
+        {
+          "type": "pentest",
+          "test_date": "2026-06-01",
+          "scope_services": [
+            "Platform",
+            "API"
+          ],
+          "findings": [
+            {
+              "id": "F-1",
+              "severity": "high",
+              "status": "closed",
+              "retest_date": "2026-07-01"
+            },
+            {
+              "id": "F-2",
+              "severity": "low",
+              "status": "open"
+            }
+          ]
+        },
+        {
+          "type": "bcp_dr",
+          "plan_date": "2026-03-01",
+          "last_test_date": "2026-05-15",
+          "rto_target_hours": 8,
+          "rto_achieved_hours": 6,
+          "result": "pass"
+        }
+      ]
+    },
+    {
+      "id": "V006",
+      "name": "Vendor 006",
+      "tier": 3,
+      "services_used": [
+        "Platform",
+        "API"
+      ],
+      "evidence": [
+        {
+          "type": "iso27001",
+          "cert_expiry": "2026-09-30",
+          "scope_services": [
+            "Platform",
+            "API"
+          ],
+          "accredited_body": true
+        }
+      ]
+    },
+    {
+      "id": "V007",
+      "name": "Vendor 007",
+      "tier": 3,
+      "services_used": [
+        "Platform",
+        "API"
+      ],
+      "evidence": [
+        {
+          "type": "iso27001",
+          "cert_expiry": "2026-12-15",
+          "scope_services": [
+            "Platform",
+            "API"
+          ],
+          "accredited_body": false
+        }
+      ]
+    },
+    {
+      "id": "V008",
+      "name": "Vendor 008",
+      "tier": 1,
+      "services_used": [
+        "Platform",
+        "API"
+      ],
+      "evidence": [
+        {
+          "type": "soc2",
+          "report_type": "type2",
+          "period_start": "2025-10-01",
+          "period_end": "2026-09-30",
+          "opinion": "unqualified",
+          "exceptions": 0,
+          "scope_services": [
+            "Platform",
+            "API"
+          ],
+          "bridge_letter_date": "2026-10-10"
+        },
+        {
+          "type": "pentest",
+          "test_date": "2026-06-01",
+          "scope_services": [
+            "Platform",
+            "API"
+          ],
+          "findings": [
+            {
+              "id": "F-9",
+              "severity": "critical",
+              "status": "open"
+            },
+            {
+              "id": "F-3",
+              "severity": "high",
+              "status": "closed"
+            }
+          ]
+        },
+        {
+          "type": "bcp_dr",
+          "plan_date": "2026-03-01",
+          "last_test_date": "2026-05-15",
+          "rto_target_hours": 8,
+          "rto_achieved_hours": 6,
+          "result": "pass"
+        }
+      ]
+    },
+    {
+      "id": "V009",
+      "name": "Vendor 009",
+      "tier": 1,
+      "services_used": [
+        "Platform",
+        "API"
+      ],
+      "evidence": [
+        {
+          "type": "soc2",
+          "report_type": "type2",
+          "period_start": "2025-10-01",
+          "period_end": "2026-09-30",
+          "opinion": "unqualified",
+          "exceptions": 0,
+          "scope_services": [
+            "Platform",
+            "API"
+          ],
+          "bridge_letter_date": "2026-10-10"
+        },
+        {
+          "type": "pentest",
+          "test_date": "2025-05-01",
+          "scope_services": [
+            "Platform",
+            "API"
+          ],
+          "findings": [
+            {
+              "id": "F-1",
+              "severity": "high",
+              "status": "closed",
+              "retest_date": "2026-07-01"
+            },
+            {
+              "id": "F-2",
+              "severity": "low",
+              "status": "open"
+            }
+          ]
+        },
+        {
+          "type": "bcp_dr",
+          "plan_date": "2026-03-01",
+          "last_test_date": "2026-05-15",
+          "rto_target_hours": 8,
+          "rto_achieved_hours": 6,
+          "result": "pass"
+        }
+      ]
+    },
+    {
+      "id": "V010",
+      "name": "Vendor 010",
+      "tier": 1,
+      "services_used": [
+        "Platform",
+        "API"
+      ],
+      "evidence": [
+        {
+          "type": "soc2",
+          "report_type": "type2",
+          "period_start": "2025-07-01",
+          "period_end": "2026-06-30",
+          "opinion": "unqualified",
+          "exceptions": 0,
+          "scope_services": [
+            "Platform",
+            "API"
+          ],
+          "bridge_letter_date": null
+        },
+        {
+          "type": "pentest",
+          "test_date": "2026-06-01",
+          "scope_services": [
+            "Platform",
+            "API"
+          ],
+          "findings": [
+            {
+              "id": "F-1",
+              "severity": "high",
+              "status": "closed",
+              "retest_date": "2026-07-01"
+            },
+            {
+              "id": "F-2",
+              "severity": "low",
+              "status": "open"
+            }
+          ]
+        },
+        {
+          "type": "bcp_dr",
+          "plan_date": "2026-03-01",
+          "last_test_date": "2025-06-01",
+          "rto_target_hours": 8,
+          "rto_achieved_hours": 12,
+          "result": "pass"
+        }
+      ]
+    },
+    {
+      "id": "V011",
+      "name": "Vendor 011",
+      "tier": 4,
+      "services_used": [
+        "Platform",
+        "API"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "V012",
+      "name": "Vendor 012",
+      "tier": 1,
+      "services_used": [
+        "Platform",
+        "API"
+      ],
+      "evidence": [
+        {
+          "type": "soc2",
+          "report_type": "type2",
+          "period_start": "2025-10-01",
+          "period_end": "2026-09-30",
+          "opinion": "unqualified",
+          "exceptions": 0,
+          "scope_services": [
+            "Platform",
+            "API"
+          ],
+          "bridge_letter_date": "2026-10-10"
+        },
+        {
+          "type": "pentest",
+          "test_date": "2026-06-01",
+          "scope_services": [
+            "Platform",
+            "API"
+          ],
+          "findings": [
+            {
+              "id": "F-1",
+              "severity": "high",
+              "status": "closed",
+              "retest_date": "2026-07-01"
+            },
+            {
+              "id": "F-2",
+              "severity": "low",
+              "status": "open"
+            }
+          ]
+        },
+        {
+          "type": "bcp_dr",
+          "plan_date": "2026-03-01",
+          "last_test_date": "2026-05-15",
+          "rto_target_hours": 8,
+          "rto_achieved_hours": 6,
+          "result": "pass"
+        }
+      ]
+    },
+    {
+      "id": "V013",
+      "name": "Vendor 013",
+      "tier": 2,
+      "services_used": [
+        "Platform",
+        "API"
+      ],
+      "evidence": [
+        {
+          "type": "soc2",
+          "report_type": "type2",
+          "period_start": "2025-10-01",
+          "period_end": "2026-09-30",
+          "opinion": "unqualified",
+          "exceptions": 0,
+          "scope_services": [
+            "Platform",
+            "API"
+          ],
+          "bridge_letter_date": "2026-10-10"
+        },
+        {
+          "type": "bcp_dr",
+          "plan_date": "2026-03-01",
+          "last_test_date": "2026-05-15",
+          "rto_target_hours": 8,
+          "rto_achieved_hours": 6,
+          "result": "pass"
+        }
+      ]
+    },
+    {
+      "id": "V014",
+      "name": "Vendor 014",
+      "tier": 3,
+      "services_used": [
+        "Platform",
+        "API"
+      ],
+      "evidence": [
+        {
+          "type": "iso27001",
+          "cert_expiry": "2028-03-01",
+          "scope_services": [
+            "Platform",
+            "API"
+          ],
+          "accredited_body": true
+        }
+      ]
+    },
+    {
+      "id": "V015",
+      "name": "Vendor 015",
+      "tier": 4,
+      "services_used": [
+        "Platform",
+        "API"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "V016",
+      "name": "Vendor 016",
+      "tier": 1,
+      "services_used": [
+        "Platform",
+        "API"
+      ],
+      "evidence": [
+        {
+          "type": "soc2",
+          "report_type": "type2",
+          "period_start": "2025-10-01",
+          "period_end": "2026-09-30",
+          "opinion": "unqualified",
+          "exceptions": 0,
+          "scope_services": [
+            "Platform",
+            "API"
+          ],
+          "bridge_letter_date": "2026-10-10"
+        },
+        {
+          "type": "pentest",
+          "test_date": "2026-06-01",
+          "scope_services": [
+            "Platform",
+            "API"
+          ],
+          "findings": [
+            {
+              "id": "F-1",
+              "severity": "high",
+              "status": "closed",
+              "retest_date": "2026-07-01"
+            },
+            {
+              "id": "F-2",
+              "severity": "low",
+              "status": "open"
+            }
+          ]
+        },
+        {
+          "type": "bcp_dr",
+          "plan_date": "2026-03-01",
+          "last_test_date": "2026-05-15",
+          "rto_target_hours": 8,
+          "rto_achieved_hours": 6,
+          "result": "pass"
+        }
+      ]
+    },
+    {
+      "id": "V017",
+      "name": "Vendor 017",
+      "tier": 2,
+      "services_used": [
+        "Platform",
+        "API"
+      ],
+      "evidence": [
+        {
+          "type": "soc2",
+          "report_type": "type2",
+          "period_start": "2025-10-01",
+          "period_end": "2026-09-30",
+          "opinion": "unqualified",
+          "exceptions": 0,
+          "scope_services": [
+            "Platform",
+            "API"
+          ],
+          "bridge_letter_date": "2026-10-10"
+        },
+        {
+          "type": "bcp_dr",
+          "plan_date": "2026-03-01",
+          "last_test_date": "2026-05-15",
+          "rto_target_hours": 8,
+          "rto_achieved_hours": 6,
+          "result": "pass"
+        }
+      ]
+    },
+    {
+      "id": "V018",
+      "name": "Vendor 018",
+      "tier": 3,
+      "services_used": [
+        "Platform",
+        "API"
+      ],
+      "evidence": [
+        {
+          "type": "iso27001",
+          "cert_expiry": "2028-03-01",
+          "scope_services": [
+            "Platform",
+            "API"
+          ],
+          "accredited_body": true
+        }
+      ]
+    },
+    {
+      "id": "V019",
+      "name": "Vendor 019",
+      "tier": 4,
+      "services_used": [
+        "Platform",
+        "API"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "V020",
+      "name": "Vendor 020",
+      "tier": 1,
+      "services_used": [
+        "Platform",
+        "API"
+      ],
+      "evidence": [
+        {
+          "type": "soc2",
+          "report_type": "type2",
+          "period_start": "2025-10-01",
+          "period_end": "2026-09-30",
+          "opinion": "unqualified",
+          "exceptions": 0,
+          "scope_services": [
+            "Platform",
+            "API"
+          ],
+          "bridge_letter_date": "2026-10-10"
+        },
+        {
+          "type": "pentest",
+          "test_date": "2026-06-01",
+          "scope_services": [
+            "Platform",
+            "API"
+          ],
+          "findings": [
+            {
+              "id": "F-1",
+              "severity": "high",
+              "status": "closed",
+              "retest_date": "2026-07-01"
+            },
+            {
+              "id": "F-2",
+              "severity": "low",
+              "status": "open"
+            }
+          ]
+        },
+        {
+          "type": "bcp_dr",
+          "plan_date": "2026-03-01",
+          "last_test_date": "2026-05-15",
+          "rto_target_hours": 8,
+          "rto_achieved_hours": 6,
+          "result": "pass"
+        }
+      ]
+    },
+    {
+      "id": "V021",
+      "name": "Vendor 021",
+      "tier": 2,
+      "services_used": [
+        "Platform",
+        "API"
+      ],
+      "evidence": [
+        {
+          "type": "soc2",
+          "report_type": "type2",
+          "period_start": "2025-10-01",
+          "period_end": "2026-09-30",
+          "opinion": "unqualified",
+          "exceptions": 0,
+          "scope_services": [
+            "Platform",
+            "API"
+          ],
+          "bridge_letter_date": "2026-10-10"
+        },
+        {
+          "type": "bcp_dr",
+          "plan_date": "2026-03-01",
+          "last_test_date": "2026-05-15",
+          "rto_target_hours": 8,
+          "rto_achieved_hours": 6,
+          "result": "pass"
+        }
+      ]
+    },
+    {
+      "id": "V022",
+      "name": "Vendor 022",
+      "tier": 3,
+      "services_used": [
+        "Platform",
+        "API"
+      ],
+      "evidence": [
+        {
+          "type": "iso27001",
+          "cert_expiry": "2028-03-01",
+          "scope_services": [
+            "Platform",
+            "API"
+          ],
+          "accredited_body": true
+        }
+      ]
+    },
+    {
+      "id": "V023",
+      "name": "Vendor 023",
+      "tier": 4,
+      "services_used": [
+        "Platform",
+        "API"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "V024",
+      "name": "Vendor 024",
+      "tier": 1,
+      "services_used": [
+        "Platform",
+        "API"
+      ],
+      "evidence": [
+        {
+          "type": "soc2",
+          "report_type": "type2",
+          "period_start": "2025-10-01",
+          "period_end": "2026-09-30",
+          "opinion": "unqualified",
+          "exceptions": 0,
+          "scope_services": [
+            "Platform",
+            "API"
+          ],
+          "bridge_letter_date": "2026-10-10"
+        },
+        {
+          "type": "pentest",
+          "test_date": "2026-06-01",
+          "scope_services": [
+            "Platform",
+            "API"
+          ],
+          "findings": [
+            {
+              "id": "F-1",
+              "severity": "high",
+              "status": "closed",
+              "retest_date": "2026-07-01"
+            },
+            {
+              "id": "F-2",
+              "severity": "low",
+              "status": "open"
+            }
+          ]
+        },
+        {
+          "type": "bcp_dr",
+          "plan_date": "2026-03-01",
+          "last_test_date": "2026-05-15",
+          "rto_target_hours": 8,
+          "rto_achieved_hours": 6,
+          "result": "pass"
+        }
+      ]
+    },
+    {
+      "id": "V025",
+      "name": "Vendor 025",
+      "tier": 2,
+      "services_used": [
+        "Platform",
+        "API"
+      ],
+      "evidence": [
+        {
+          "type": "soc2",
+          "report_type": "type2",
+          "period_start": "2025-10-01",
+          "period_end": "2026-09-30",
+          "opinion": "unqualified",
+          "exceptions": 0,
+          "scope_services": [
+            "Platform",
+            "API"
+          ],
+          "bridge_letter_date": "2026-10-10"
+        },
+        {
+          "type": "bcp_dr",
+          "plan_date": "2026-03-01",
+          "last_test_date": "2026-05-15",
+          "rto_target_hours": 8,
+          "rto_achieved_hours": 6,
+          "result": "pass"
+        }
+      ]
+    },
+    {
+      "id": "V026",
+      "name": "Vendor 026",
+      "tier": 3,
+      "services_used": [
+        "Platform",
+        "API"
+      ],
+      "evidence": [
+        {
+          "type": "iso27001",
+          "cert_expiry": "2028-03-01",
+          "scope_services": [
+            "Platform",
+            "API"
+          ],
+          "accredited_body": true
+        }
+      ]
+    },
+    {
+      "id": "V027",
+      "name": "Vendor 027",
+      "tier": 4,
+      "services_used": [
+        "Platform",
+        "API"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "V028",
+      "name": "Vendor 028",
+      "tier": 1,
+      "services_used": [
+        "Platform",
+        "API"
+      ],
+      "evidence": [
+        {
+          "type": "soc2",
+          "report_type": "type2",
+          "period_start": "2025-10-01",
+          "period_end": "2026-09-30",
+          "opinion": "unqualified",
+          "exceptions": 0,
+          "scope_services": [
+            "Platform",
+            "API"
+          ],
+          "bridge_letter_date": "2026-10-10"
+        },
+        {
+          "type": "pentest",
+          "test_date": "2026-06-01",
+          "scope_services": [
+            "Platform",
+            "API"
+          ],
+          "findings": [
+            {
+              "id": "F-1",
+              "severity": "high",
+              "status": "closed",
+              "retest_date": "2026-07-01"
+            },
+            {
+              "id": "F-2",
+              "severity": "low",
+              "status": "open"
+            }
+          ]
+        },
+        {
+          "type": "bcp_dr",
+          "plan_date": "2026-03-01",
+          "last_test_date": "2026-05-15",
+          "rto_target_hours": 8,
+          "rto_achieved_hours": 6,
+          "result": "pass"
+        }
+      ]
+    },
+    {
+      "id": "V029",
+      "name": "Vendor 029",
+      "tier": 2,
+      "services_used": [
+        "Platform",
+        "API"
+      ],
+      "evidence": [
+        {
+          "type": "soc2",
+          "report_type": "type2",
+          "period_start": "2025-10-01",
+          "period_end": "2026-09-30",
+          "opinion": "unqualified",
+          "exceptions": 0,
+          "scope_services": [
+            "Platform",
+            "API"
+          ],
+          "bridge_letter_date": "2026-10-10"
+        },
+        {
+          "type": "bcp_dr",
+          "plan_date": "2026-03-01",
+          "last_test_date": "2026-05-15",
+          "rto_target_hours": 8,
+          "rto_achieved_hours": 6,
+          "result": "pass"
+        }
+      ]
+    },
+    {
+      "id": "V030",
+      "name": "Vendor 030",
+      "tier": 3,
+      "services_used": [
+        "Platform",
+        "API"
+      ],
+      "evidence": [
+        {
+          "type": "iso27001",
+          "cert_expiry": "2028-03-01",
+          "scope_services": [
+            "Platform",
+            "API"
+          ],
+          "accredited_body": true
+        }
+      ]
+    }
+  ]
+}

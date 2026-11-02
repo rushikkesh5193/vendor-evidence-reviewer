@@ -1,0 +1,12 @@
+{
+  "_note": "Defaults are illustrative. Tune them to your own TPRM policy.",
+  "required_evidence": {"1": ["assurance", "pentest", "bcp_dr"], "2": ["assurance", "bcp_dr"], "3": ["assurance"], "4": []},
+  "type2_required_tiers": [1, 2],
+  "soc2_max_age_months": 12,
+  "soc2_bridge_after_months": 3,
+  "soc2_min_period_months": 6,
+  "iso_expiring_days": 90,
+  "pentest_max_age_months": 12,
+  "dr_test_max_age_months": 12,
+  "bcp_plan_max_age_months": 12
+}

@@ -1,0 +1,17 @@
+severity,vendor,name,check,detail,question
+critical,V008,Vendor 008,PENTEST_OPEN_FINDING,Critical finding F-9 is still open.,What is the remediation date for finding F-9?
+high,V001,Vendor 001,EVIDENCE_MISSING,No BCP/DR evidence on file.,Please provide your BCP/DR plan summary and latest test results.
+high,V003,Vendor 003,SOC2_STALE,"Report period ended 2025-07-31, over 12 months ago.",Please provide your most recent SOC 2 report.
+high,V004,Vendor 004,SOC2_OPINION_NOT_CLEAN,Auditor opinion is qualified.,Please explain the basis for the modified opinion and your remediation plan.
+high,V005,Vendor 005,SCOPE_GAP,Services we use are outside the assurance scope: API.,"Is API covered by your SOC 2 or ISO 27001 scope? If not, what other assurance exists?"
+high,V006,Vendor 006,ISO_EXPIRED,Certificate expired 2026-09-30.,Please provide the renewed certificate.
+high,V009,Vendor 009,PENTEST_STALE,Last penetration test 2025-05-01.,Please provide a penetration test from the last 12 months.
+high,V010,Vendor 010,DR_TEST_FAILED,"Last DR test missed its target (achieved 12h, target 8h).","What corrective actions followed the failed DR test, and when was it re-run?"
+high,V010,Vendor 010,DR_TEST_STALE,Last DR test 2025-06-01.,Please provide a DR test from the last 12 months.
+medium,V002,Vendor 002,SOC2_PERIOD_SHORT,Observation period 2026-08-01 to 2026-09-30 is under 6 months.,Why is the observation period short? When will a longer period report be issued?
+medium,V002,Vendor 002,SOC2_TYPE1_ONLY,Only a point-in-time Type 1 report; Type 2 is expected for this tier.,"Please share your SOC 2 Type 2 report, or the date it will be available."
+medium,V004,Vendor 004,SOC2_EXCEPTIONS,3 control exception(s) reported.,"Please explain each exception, its impact on our services and the remediation."
+medium,V007,Vendor 007,ISO_BODY_NOT_ACCREDITED,Certification body is not accredited.,Please confirm the accreditation of your certification body.
+medium,V007,Vendor 007,ISO_EXPIRING,Certificate expires 2026-12-15.,Please confirm the date of your recertification audit.
+medium,V008,Vendor 008,PENTEST_UNVERIFIED,High finding F-3 was closed without a retest.,Please provide retest evidence for finding F-3.
+low,V010,Vendor 010,SOC2_BRIDGE_MISSING,Period ended 2026-06-30 and no bridge letter covers the gap since.,Please provide a bridge (gap) letter confirming no material control changes since the period end.
